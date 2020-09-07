@@ -28,11 +28,13 @@
                 android:layout_height="match_parent">
 
                 <RelativeLayout
-                    android:orientation="vertical"
                     android:id="@+id/tabConversorUniversal"
-                    android:padding="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:theme="@style/AppTheme">
 
                     <EditText
                         android:id="@+id/txtcantidad"
