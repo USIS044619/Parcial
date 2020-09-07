@@ -8,7 +8,7 @@
 
 
     <TabHost
-        android:id="@+id/tbhParcial1"
+        android:id="@+id/tbhParcial"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -38,34 +38,34 @@
                     android:theme="@style/AppTheme">
 
                     <EditText
-                        android:id="@+id/txtcantidad"
+                        android:id="@+id/txtcantidades"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="60dp"
-                        android:hint="Cantidad" />
+                        android:hint="cantidades" />
 
                     <EditText
                         android:id="@+id/txtunidades"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="120dp"
-                        android:hint="Unidades" />
+                        android:hint="unidades" />
 
                     <EditText
-                        android:id="@+id/txtvalor"
+                        android:id="@+id/txtvalores"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="180dp"
-                        android:hint="RESULTADO" />
+                        android:hint="resultado" />
 
                     <Button
-                        android:id="@+id/btnProcesos"
-                        android:layout_width="384dp"
+                        android:id="@+id/btnProceso"
+                        android:layout_width="399dp"
                         android:layout_height="130dp"
                         android:layout_marginTop="240dp"
                         android:background="@android:drawable/button_onoff_indicator_off"
                         android:onClick="procesar"
-                        android:text="Convertir" />
+                        android:text="conversor" />
 
                 </RelativeLayout>
 
@@ -75,7 +75,7 @@
                     android:layout_height="match_parent"
                     android:background="#FFFFFF"
                     android:orientation="vertical"
-                    android:padding="10dp">
+                    android:padding="16dp">
 
                     <EditText
                         android:id="@+id/txtcan"
