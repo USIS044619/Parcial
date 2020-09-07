@@ -21,7 +21,7 @@
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:color/darker_gray" />
+                android:background="@android:color/holo_blue_bright" />
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
@@ -66,12 +66,6 @@
                         android:background="@android:drawable/button_onoff_indicator_off"
                         android:onClick="convertir"
                         android:text="Convertir" />
-
-                    <ImageView
-                        android:id="@+id/imageView"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/logo" />
 
                 </RelativeLayout>
 
