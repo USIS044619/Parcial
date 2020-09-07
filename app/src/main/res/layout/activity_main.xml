@@ -20,7 +20,7 @@
             <TabWidget
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="119dp"
                 android:background="@android:color/holo_blue_bright" />
 
             <FrameLayout
@@ -29,7 +29,7 @@
                 android:layout_height="match_parent">
 
                 <RelativeLayout
-                    android:id="@+id/tabConversorUniversal"
+                    android:id="@+id/tabUniversal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@android:color/white"
@@ -59,9 +59,9 @@
                         android:hint="RESULTADO" />
 
                     <Button
-                        android:id="@+id/btnProcesar"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:id="@+id/btnProcesos"
+                        android:layout_width="384dp"
+                        android:layout_height="130dp"
                         android:layout_marginTop="240dp"
                         android:background="@android:drawable/button_onoff_indicator_off"
                         android:onClick="procesar"
@@ -70,7 +70,7 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:id="@+id/tabAreaSuperficie"
+                    android:id="@+id/tabArea"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#FFFFFF"
