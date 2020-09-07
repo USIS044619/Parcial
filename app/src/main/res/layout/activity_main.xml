@@ -56,7 +56,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="180dp"
-                        android:hint="Unidades" />
+                        android:hint="RESULTADO" />
 
                     <Button
                         android:id="@+id/btnProcesar"
@@ -64,7 +64,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="240dp"
                         android:background="@android:drawable/button_onoff_indicator_off"
-                        android:onClick="convertir"
+                        android:onClick="procesar"
                         android:text="Convertir" />
 
                 </RelativeLayout>
